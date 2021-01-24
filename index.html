@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/select2.min.css">
+
+  <title>Alarm clock</title>
+</head>
+
+<body>
+  
+  <!-- <div class="img-bg">
+   <img src="background.jpg" alt="BackgroundImageARDHACODES" class="img-fluid">
+  </div> -->
+
+
+  <div class="container text-center">
+    <img class="logo py-auto px-auto mt-3" height="80" src="schedule.svg" alt="" srcset="">
+  </div>
+  <div class="container-vols container container-fluid text-center p-5 rounded-lg mt-3">
+    <h2 class="show-text mt-2 mb-2" id="show-text"></h2>
+    <div class="row">
+      <div class="col align-self-top">
+        <div class="alert alert-primary" role="alert">
+          <h4 class="alert-heading">INFORMATION</h4>
+          <hr>
+          <h4 id="date"></h4>
+          <h4 id="time"></h4>
+        </div>
+      </div>
+
+      <div class="col align-self-top">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title">SET YOUR ALARM</h5>
+          </div>
+          <div class="card-body">
+            <select class="alarm-hour" id='alarm-hour'></select>
+            <select id='alarm-minute'></select>
+            <select id='alarm-second'></select>
+            <div class="button-act mt-4">
+              <button id="start" type="button" class="btn btn-primary">Start</button>
+              <button id="cancel" type="button" class="btn btn-danger">Cancel / Stop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mt-4">
+      <div class="card-body">
+        <iframe src="https://timesprayer.com/widgets.php?frame=1&amp;lang=en&amp;name=surabaya&amp;sound=true&amp;avachang=true&amp;time=0&amp;fcolor=2F8CA1&amp;tcolor=4FA2AB&amp;frcolor=164359" style="border: none; overflow: hidden; width: 100%; height: 200px;" __idm_frm__="1271"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').trigger('focus')
+    })
+  </script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+</body>
+
+</html>

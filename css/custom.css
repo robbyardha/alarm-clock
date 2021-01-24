@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px) {
+
+    .btn-primary,
+    .btn-danger {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+}
+
+
+.img-bg {
+    background-image: url("../background.jpg");
+    /* background-color: #7ed6df; */
+    background-size: cover;
+    opacity: 0.5;
+    position: fixed;
+}
+
+.logo {
+    position: relative;
+}
+
+body {
+    background-color: #30336b;
+}
+
+.border-primary {
+    border: 1 solid #30336b !important;
+}
+
+.alert-primary {
+    background-color: #c7ecee;
+}
+
+.show-text {
+    color: white;
+    font-weight: bold;
+}
+
+/* .img-bg {
+    position: absolute;
+    display: contents;
+    background-size: cover;
+    overflow: hidden;
+} */
+/* 
+.img-bg::after {
+    content: "Background";
+    background: url("../background.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+} */
